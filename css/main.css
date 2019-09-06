@@ -1,0 +1,610 @@
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('../fonts/proximanova-light-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold';
+    src: url('../fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_softbold';
+    src: url('../fonts/proximanovasoft-bold-webfont.woff2') format('woff2'),
+         url('../fonts/proximanovasoft-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_softregular';
+    src: url('../fonts/proximanovasoft-regular-webfont.woff2') format('woff2'),
+         url('../fonts/proximanovasoft-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "proxima_novalight", Montserrat , sans-serif;
+	font-size: 16px;
+	color: #b9b9b9;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+}
+/* Body  Information */
+
+/*HEADER*/
+.head-picture {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.big-pic {
+	display: block;
+	background: url(../img/head-bg.png) no-repeat center / contain;
+	width: 342px;
+	height: 732px;
+	margin-top: 90px;
+}
+
+.small-ellips {
+	display: block;
+	background: url(../img/head-small-ellips.png) no-repeat center / contain;
+	width: 59px;
+	height: 14px;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.head-content {
+	max-width: 500px;
+	margin-top: 50px;
+}
+
+.logo {
+	display: block;
+	background: url(../img/logo.png) no-repeat center / contain;
+	width: 140px;
+	height: 139px;
+}
+
+h1 {
+	font-family: "proxima_novasemibold", Montserrat , sans-serif;
+	font-weight: 500;
+	font-size: 50px;
+	color: #b9b9b9;
+	margin: 0;
+	padding: 0;
+	margin-left: 25px;
+}
+
+.logo-name {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.head-text {
+	font-family: "proxima_nova_softregular", Montserrat , sans-serif;
+	font-size: 30px;
+	margin-top: 100px;
+	margin-bottom: 65px;
+	margin-left: 5px;
+}
+
+.head-button > a {
+	text-transform: uppercase;
+	color: #98d361;
+	padding: 20px 60px;
+	border: 2px solid #98d361;
+	border-radius: 33px;
+}
+
+.head-button > a:hover {
+    color: #fff; 
+	background-color: #1FC04A;
+	border: 2px solid #1FC04A;
+}
+
+.head-button {
+	display: flex;
+	justify-content: space-between;
+}
+
+.op-sys1 {
+	display: block;
+	background: url(../img/head-icon1.png) no-repeat center / contain;
+	width: 26px;
+	height: 32px;
+	margin-left: 10px;
+	margin-right: 45px;
+}
+
+.op-sys2 {
+	display: block;
+	background: url(../img/head-icon2.png) no-repeat center / contain;
+	width: 28px;
+	height: 32px;
+	margin-right: 45px;
+}
+
+.op-sys3 {
+	display: block;
+	background: url(../img/head-icon3.png) no-repeat center / contain;
+	width: 31px;
+	height: 32px;
+}
+
+.operating-systems {
+	display: flex;
+	margin-top: 60px;
+}
+
+.head-elements {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+/*HEAD*/
+
+/*SECTION OPTIONS*/
+.same-options {
+	background: #98d361;
+}
+
+.options-title {
+	font-family: "proxima_nova_softregular", Montserrat , sans-serif;
+	font-size: 34px;
+	font-weight: 500;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.options-text {
+	font-family: "proxima_novalight", Montserrat , sans-serif;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 1.2;	
+	margin-top: 30px;
+}
+
+.options-description {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 90px;
+}
+
+.option-pic1 {
+	display: block;
+	background: url(../img/icon1.png) no-repeat center / contain;
+	width: 83px;
+	height: 70px;
+}
+
+.option-pic2 {
+	display: block;
+	background: url(../img/icon2.png) no-repeat center / contain;
+	width: 89px;
+	height: 70px;
+}
+
+.option-pic3 {
+	display: block;
+	background: url(../img/icon3.png) no-repeat center / contain;
+	width: 70px;
+	height: 69px;
+}
+
+.options-title2 {
+	font-size: 28px;
+	margin: 70px 3% 40px 3%;
+	flex: 1;
+}
+
+.option {
+	max-width: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
+.option:hover {
+	background-color: #1FC04A;
+}
+
+.options {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 110px;
+	padding-bottom: 110px;	
+}
+/*SECTION OPTIONS*/
+
+/*SECTION FEATURES*/
+.all-functions {
+	background: #f8f8f9;
+	max-height: 875px;
+	overflow: hidden;
+}
+
+.functions-pic1 {
+	display: block;
+	background: url(../img/section-bg.png);
+	width: 310px;
+	height: 538px;
+	position: relative;
+	background-size: contain;
+	top: 50px;
+	left: 10px;
+	z-index: 1; 
+}
+
+.functions-pic2 {
+	display: block;
+	background: url(../img/section-bg2.png);
+	width: 368px;
+	height: 650px;
+	position: relative;
+	background-size: contain;
+	top: -565px;
+	left: 180px;
+	z-index: 5;
+}
+
+.all-functions-pic {
+	padding-top: 110px;
+	position: relative;	
+}
+
+.small-ellips2 {
+	display: block;
+	background: url(../img/head-small-ellips.png);
+	width: 59px;
+	height: 14px;
+	position: relative;
+	background-size: contain;
+	top: -515px;
+	left: 250px;
+}
+
+.functions-title {
+	color: #727272;
+	font-weight: 600;
+}
+
+.funktion-icon1 {
+	display: block;
+	background: url(../img/sec-icon1.png) no-repeat center / contain;
+	width: 39px;
+	height: 39px;
+}
+
+.funktion-icon2 {
+	display: block;
+	background: url(../img/sec-icon2.png) no-repeat center / contain;
+	width: 41px;
+	height: 40px;
+}
+
+.funktion-icon3 {
+	display: block;
+	background: url(../img/sec-icon3.png) no-repeat center / contain;
+	width: 44px;
+	height: 34px;
+}
+
+.funktion-icon4 {
+	display: block;
+	background: url(../img/sec-icon4.png) no-repeat center / contain;
+	width: 44px;
+	height: 35px;
+}
+
+.function-green-text {
+	color: #98d361;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.function-grey-text {
+	color: #727272;
+}
+
+.functions-description {
+	max-width: 460px;
+	margin-top: 120px;
+	margin-right: 50px;
+}
+
+.function {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.functions-position {
+	display: flex;
+	justify-content: space-between;
+}
+/*SECTION FEATURES*/
+
+/*SECTION PIOPLE*/
+.quotes {
+	font-family: "Stencil Regular", Montserrat , sans-serif;
+	color: #98d361;
+	font-size: 100px;
+}
+
+.piople-title {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.piople-text{
+	font-family: "proxima_nova_softregular", Montserrat , sans-serif;
+	font-size: 24px;
+	line-height: 31px;
+	font-style: italic;
+}
+
+.piople-icon {
+	display: block;
+	background: url(../img/man1.png) no-repeat center / contain;
+	width: 73px;
+	height: 73px;
+	padding: 3px;
+	border: 5px solid #98d361;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.piople-icon2 {
+	display: block;
+	background: url(../img/man2.png) no-repeat center / contain;
+	width: 73px;
+	height: 73px;
+	padding: 3px;
+	border: 5px solid #98d361;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.piople-icon3 {
+	display: block;
+	background: url(../img/woman.png) no-repeat center / contain;
+	width: 73px;
+	height: 73px;
+	padding: 3px;
+	border: 5px solid #98d361;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.person {
+	display: flex;
+	max-width: 270px;
+	align-items: center;
+}
+
+.piople {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 120px;
+}
+
+.dot-link {
+	display: block;
+	background: url(../img/dot.png) no-repeat center / contain;
+	width: 10px;
+	height: 11px;
+	margin: 70px 5px 85px 5px;
+}
+
+.dot-link:hover {
+	background: url(../img/dot-green.png) no-repeat center;
+}
+
+.dot-links {
+	display: flex;
+	justify-content: center;
+}
+/*SECTION PIOPLE*/
+
+/*SECTION EMAIL*/
+.email {
+	background: #f3f5f5;
+}
+
+.letter {
+	display: block;
+	background: url(../img/letter.png) no-repeat center / contain;
+	width: 58px;
+	height: 43px;
+	margin-top: 70px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.email-title {
+	color: #8c9494;
+	text-align: center;
+
+}
+
+.email-text {
+	color: #686868;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.email-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form {
+	margin: 5px;
+	border: 0;
+	padding-left: 20px;
+	min-width: 70%;
+	background: #fff;
+	color: #777;
+}
+
+.browse {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 60%;
+	height: 49px;
+	border: 1px solid #e6e9e9;
+	border-radius: 50px;
+	background: #fff;
+	margin-top: 60px;
+	margin-bottom: 90px;
+}
+
+.subscribe {
+	font-family: "proxima_nova_softregular", Montserrat , sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	background: #98d361;
+	color: #fff;
+	padding: 14px 7.43%;
+	border: none;
+	border-radius: 0 50px 50px 0;
+	text-transform: uppercase;
+}
+/*SECTION EMAIL*/
+
+/*FOOTER*/
+.fb {
+	display: block;
+	background: url(../img/fb.png) no-repeat center / contain;
+	width: 32px;
+	height: 32px;
+	margin-right: 70px;
+}
+
+.tw {
+	display: block;
+	background: url(../img/twitter.png) no-repeat center / contain;
+	width: 32px;
+	height: 32px;
+	margin-right: 70px;
+}
+
+.vi {
+	display: block;
+	background: url(../img/vimeo.png) no-repeat center / contain;
+	width: 32px;
+	height: 32px;
+	margin-right: 70px;
+}
+
+.pn {
+	display: block;
+	background: url(../img/pinterest.png) no-repeat center / contain;
+	width: 32px;
+	height: 32px;
+}
+
+.sochial-net {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+
+.sochial-link {
+	color: #b3b9b9;
+}
+
+.sochial-link:hover {
+	color: #98D361;
+}
+
+.line {
+	border-left: 2px solid #b3b9b9;
+	height: 11px;
+	margin-left: 1em;
+	padding-left: 1em;
+}
+
+.support {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hr {
+	background: #b3b9b9;
+	height: 2px;
+	border: none;
+	width: 235px;
+}
+
+.copyright {
+	font-size: 12px;
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+/*FOOTER*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
