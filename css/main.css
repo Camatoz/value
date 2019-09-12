@@ -139,28 +139,25 @@ h1 {
 	justify-content: space-between;
 }
 
-.op-sys1 {
-	display: block;
-	background: url(../img/head-icon1.png) no-repeat center / contain;
-	width: 26px;
-	height: 32px;
+.fa-apple {
+	color: #98D361;
 	margin-left: 10px;
 	margin-right: 45px;
 }
 
-.op-sys2 {
-	display: block;
-	background: url(../img/head-icon2.png) no-repeat center / contain;
-	width: 28px;
-	height: 32px;
+.fa-android {
+	color: #98D361;
 	margin-right: 45px;
 }
 
-.op-sys3 {
-	display: block;
-	background: url(../img/head-icon3.png) no-repeat center / contain;
-	width: 31px;
-	height: 32px;
+.fa-windows {
+	color: #98D361;
+}
+
+.fa-apple:hover,
+.fa-android:hover,
+.fa-windows:hover {
+	color: #1FC04A;
 }
 
 .operating-systems {
@@ -515,35 +512,22 @@ h1 {
 /*SECTION EMAIL*/
 
 /*FOOTER*/
-.fb {
-	display: block;
-	background: url(../img/fb.png) no-repeat center / contain;
-	width: 32px;
-	height: 32px;
+.fa-facebook-f,
+.fa-twitter,
+.fa-vimeo-v {
+	color: #A7A7A7;
 	margin-right: 70px;
 }
 
-.tw {
-	display: block;
-	background: url(../img/twitter.png) no-repeat center / contain;
-	width: 32px;
-	height: 32px;
-	margin-right: 70px;
+.fa-pinterest-p {
+	color: #A7A7A7;
 }
 
-.vi {
-	display: block;
-	background: url(../img/vimeo.png) no-repeat center / contain;
-	width: 32px;
-	height: 32px;
-	margin-right: 70px;
-}
-
-.pn {
-	display: block;
-	background: url(../img/pinterest.png) no-repeat center / contain;
-	width: 32px;
-	height: 32px;
+.fa-facebook-f:hover,
+.fa-twitter:hover,
+.fa-vimeo-v:hover,
+.fa-pinterest-p:hover {
+	color: #98D361;
 }
 
 .sochial-net {
@@ -589,6 +573,8 @@ hr {
 	margin-bottom: 10px;
 }
 /*FOOTER*/
+
+
 
 
 
